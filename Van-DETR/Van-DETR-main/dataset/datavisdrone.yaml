@@ -1,0 +1,17 @@
+train: D:\pythonproject\RTDETR-20240608\RTDETR-20240608\RTDETR-main\dataset\images\trainvisdrone  # train images (relative to 'path')  6471 images
+val: D:\pythonproject\RTDETR-20240608\RTDETR-20240608\RTDETR-main\dataset\images\valvisdrone  # val images (relative to 'path')  548 images
+test: D:\pythonproject\RTDETR-20240608\RTDETR-20240608\RTDETR-main\dataset\images\testvisdrone  # test images (optional)  1610 images
+
+nc: 10
+
+names:
+  0: pedestrian
+  1: people
+  2: bicycle
+  3: car
+  4: van
+  5: truck
+  6: tricycle
+  7: awning-tricycle
+  8: bus
+  9: motor
